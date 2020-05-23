@@ -1,1 +1,9 @@
-
+_pychache_
+.ipnb_checkpoints
+.vscode
+env
+EXCEL FILES
+NOTEBOOK
+check_params._pychache_
+ex_Therapy1.py
+test.txt
