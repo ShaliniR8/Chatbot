@@ -1,7 +1,4 @@
 from flask import Flask, render_template, request
-from chatterbot.response_selection import get_most_frequent_response
-from chatterbot.comparisons import sentiment_comparison
-from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer, ChatterBotCorpusTrainer
 from chatbot import chatbot
 
