@@ -1,57 +1,301 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="/static/style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  </head>
-  <body>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>FriendBot</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
 
-<div class="social-container">
-      <a href="https://github.com/ShaliniR8/Chatbot" class="social"><img src="/static/github-logo.png" alt="https://github.com/ShaliniR8/Chatbot"></a>
-    </div>
+  <!-- Favicons -->
+  <link href="static/img/favicon.png" rel="icon">
+  <link href="static/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-    <h1>Friendbot</h1>
-    
-    
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="static/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="static/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="static/lib/animate/animate.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="static/css/style.css" rel="stylesheet">
   
+</head>
+
+<body>
+
+  <!--==========================
+  Header
+  ============================-->
+  <header id="header">
+    <div class="container">
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="#hero">Home</a></li>
+          <li><a href="#about">About </a></li>
+          <li><a href="#facts">Facts</a></li>
+          <li><a href="#services">Algorithms</a></li>
+          <li><a href="#contact">Start Chatting</a></li>
+          <li><a href="#team">Members</a></li>
+          
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Hero Section
+  ============================-->
+  <section id="hero">
+    <div class="hero-container">
+      <h1>Hi!</h1>
+      <h2>I'm FriendBot. I'm here to listen</h2>
+      <a href="#about" class="btn-get-started">Check Out</a>
+    </div>
+  </section><!-- #hero -->
+
+  <main id="main">
+
+    <!--==========================
+      About
+    ============================-->
+    <section id="about">
+      <div class="container">
+        <div class="row about-container">
+
+          <div class="col-lg-6 content order-lg-1 order-2">
+            <h2 class="title"> About This Project</h2>
+            <p>
+              Friendbot is an automated self-help for users in the guise of a chatbot. This
+project is a comprehensive study on years of research done in the field of Therapy Artificial Intelligence and an application based on the same. Using Chatterbot as the main library, a self-created
+dataset has been used to train and test to enable a comprehensible conversational flow. A further goal is to work on optimization algorithms to obtain
+better-enhanced dialogues.
+            </p>
+
+            <div class="icon-box wow fadeInUp">
+              <div class="icon"><i class="fa fa-github"></i></div>
+              <h4 class="title"><a href="https://github.com/ShaliniR8/Chatbot">Github</a></h4>
+              <p class="description">Check us out!</p>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6 background order-lg-2 order-1 wow fadeInRight"></div>
+        </div>
+
+      </div>
+    </section><!-- #about -->
+
+    <!--==========================
+      Facts Section
+    ============================-->
+    <section id="facts">
+      <div class="container wow fadeIn">
+        <div class="section-header">
+          <h3 class="section-title">Facts</h3>
+        </div>
+        <div class="row counters">
+
+  				<div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">50</span>
+            <p>percent rise in clinical Depression in 8 years in India</p>
+  				</div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">9</span>
+            <p>out 10 suffer from stress in India</p>
+  				</div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">3.573</span>
+            <p>points in happiness index in India</p>
+  				</div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">56.6</span>
+            <p>percent cases go untreated in India</p>
+  				</div>
+
+  			</div>
+
+      </div>
+    </section><!-- #facts -->
+
+    <!--==========================
+      Algorithm
+    ============================-->
+    <section id="services">
+      <div class="container wow fadeIn">
+        <div class="section-header">
+          <h3 class="section-title">Algorithms</h3>
+          <p class="section-description">A comprehensive decription of algorithms that measure text similarity</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="box">
+              <div class="icon"><a href=""><i class="fa fa-location-arrow"></i></a></div>
+              <h4 class="title"><a href="">Levenshtein Distance</a></h4>
+              <p class="description">Minimum number of single-character edits required to change one word into the other.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="box">
+              <div class="icon"><a href=""><i class="fa fa-location-arrow"></i></a></div>
+              <h4 class="title"><a href="">Jaccard Similarity</a></h4>
+              <p class="description">Compares members for two sets to see which members are shared and which are distinct</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+            <div class="box">
+              <div class="icon"><a href=""><i class="fa fa-location-arrow"></i></a></div>
+              <h4 class="title"><a href="">Synset Distance</a></h4>
+              <p class="description"> Different set of words grouped as a synonymy set.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="box">
+              <div class="icon"><a href=""><i class="fa fa-location-arrow"></i></a></div>
+              <h4 class="title"><a href="">Sentiment Comparison</a></h4>
+              <p class="description">Sentiment comparison algorithms calculate the closeness of two statements based on the closeness of the sentiment value of the two statements.</p>
+            </div>
+          </div>
+
+      </div>
+    </section>
+
+    <!--==========================
+           Emergency
+    ============================-->
+    <section id="call-to-action">
+      <div class="container wow fadeIn">
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-left">
+            <h3 class="cta-title">Emergency</h3>
+            <p class="cta-text">Remember, there's always help if you ask for it and it's never too late till it's too late.</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="http://www.aasra.info/helpline.html">Helpline numbers</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #call-to-action -->
+
+   <!--==========================
+      CHAT SECTION
+    ============================-->
+    <section id="contact">
+      <div class="container wow fadeInUp">
+        <div class="section-header">
+          <h3 class="section-title">FriendBot</h3>
+          <p class="section-description">Let's chat!</p>
+        </div>
+      </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+           
+              <div class="icon"><a href="/chat"><i class="fa fa-location-arrow"></i></a></div>
+              
+           
+          </div>
+      
+    </section><!--Chat-->
     
 
-      <div class="app">
-      <div id="chatbox">
-        <p class="botText"><span>Hi! I'm Chatterbot.</span></p>
+
+
+    <!--============================================>
+      PICTURE
+      =================================--->
+
+      <section id="code">
+      <div class="container wow fadeIn">
+        <div class="row">
+          
+        </div>
+
       </div>
+    </section><!--picture-->
 
+    <!--==========================
+      Team Section
+    ============================-->
+    <section id="team">
+      <div class="container wow fadeInUp">
+        <div class="section-header">
+          <h3 class="section-title">Members</h3>
+          <p class="section-description">The people who have been working endlessly to bring this project to life.</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img/team-1.jpg" alt=""></div>
+              <h4>Aditi Parashar</h4>
+              <span>Position</span>
+            </div>
+          </div>
 
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img/team-2.jpg" alt=""></div>
+              <h4>Anwesa Pujari</h4>
+              <span>Position</span>
+            </div>
+          </div>
 
-      <div id="userInput">
-        <input id="textInput" type="text" name="msg" placeholder="Message">
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img/team-3.jpg" alt=""></div>
+              <h4>Anukriti Chatterjee</h4>
+              <span>position</span>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img/team-4.jpg" alt=""></div>
+              <h4>Paridhi Chokhani</h4>
+              <span>Position</span>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img/team-4.jpg" alt=""></div>
+              <h4>Shalini Roy</h4>
+              <span>Position</span>
+            </div>
+          </div>
+        </div>
+
       </div>
+    </section><!-- #team -->
 
-
-      <script>
-        function getBotResponse() {
-          var rawText = $("#textInput").val();
-	console.log(rawText);
-          var userHtml = '<p class="userText"><span>' + rawText + '</span></p>';
-          $("#textInput").val("");
-          $("#chatbox").append(userHtml);
-          document.getElementById('userInput').scrollIntoView({block: 'start', behavior: 'smooth'});
-          $.get("/get", { msg: rawText }).done(function(data) {
-            var botHtml = '<p class="botText"><span>' + data + '</span></p>';
-            $("#chatbox").append(botHtml);
-            document.getElementById('userInput').scrollIntoView({block: 'start', behavior: 'smooth'});
-          });
-        }
-        $("#textInput").keypress(function(e) {
-            if(e.which == 13) {
-                getBotResponse();
-            }
-        });
-       
-      </script>
-    </div>
-    </div>
     
 
-  </body>
+  </main>
+
+  
+  
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="static/lib/jquery/jquery.min.js"></script>
+  <script src="static/lib/jquery/jquery-migrate.min.js"></script>
+  <script src="static/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="static/lib/easing/easing.min.js"></script>
+  <script src="static/lib/wow/wow.min.js"></script>
+  <script src="static/lib/waypoints/waypoints.min.js"></script>
+  <script src="static/lib/counterup/counterup.min.js"></script>
+  <script src="static/lib/superfish/hoverIntent.js"></script>
+  <script src="static/lib/superfish/superfish.min.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="static/js/main.js"></script>
+
+</body>
 </html>
