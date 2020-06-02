@@ -3,10 +3,10 @@ from chatterbot.trainers import ChatterBotCorpusTrainer
 
 chatbot=ChatBot("Alex",storage_adapter="chatterbot.storage.MongoDatabaseAdapter")
 
-
+'''
 trainer=ChatterBotCorpusTrainer(chatbot)
 trainer.train("chatterbot.corpus.english")
-
+'''
 
 def converse():
     while True:
