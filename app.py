@@ -26,8 +26,10 @@ app = Flask(__name__)
 #login
 @app.route("/")
 def home():
-    return render_template("home.html")
-
+    try:
+        return render_template("home.html")
+    except:
+        return "error"
 #website
 @app.route("/index")
 def index():
@@ -49,4 +51,4 @@ def get_bot_response():
 
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)

@@ -733,7 +733,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #team .member .pic img {
-  max-width: 100%;
+  max-width: 90%;
 }
 
 #team .member h4 {
@@ -748,18 +748,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
 }
 
-#team .member .social {
-  margin-top: 15px;
-}
 
-#team .member .social a {
-  color: #b3b3b3;
-}
-
-#team .member .social i {
-  font-size: 18px;
-  margin: 0 2px;
-}
 
 
 /* PICTURE
