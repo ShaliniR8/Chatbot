@@ -7,8 +7,12 @@ from flask import Flask, render_template, request
 from chatterbot.trainers import ListTrainer, ChatterBotCorpusTrainer
 from chat2 import chatbot
 
+
+
+#TRAINING IS DONE ONCE AFTER MAKING ANY CHANGE
 #chatterbotcorpus training
 '''
+chatbot.storage.drop()
 trainer=ChatterBotCorpusTrainer(chatbot)
 trainer.train("chatterbot.corpus.english")
 '''
