@@ -10,7 +10,7 @@ Although ChatterBot 1.2.0 has been released we found many issues with the depend
 
 # Descriptions
 
-- app.py:  Fask app
+- app.py:  Flask app
 - check_params.py: Testing parameters
 - chatbot.py: Appyling tested parameters
 - ex_Therapy1.py: Simple example of List Training
