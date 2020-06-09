@@ -7,6 +7,7 @@ import os
 
 
 #entries=os.listdir('converse')
+chatbot.storage.drop()
 trainer=ListTrainer(chatbot)
 trainer.train([
     "Hi there!",

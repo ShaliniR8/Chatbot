@@ -10,6 +10,8 @@ from chat2 import chatbot
 
 
 #TRAINING IS DONE ONLY ONCE AFTER MAKING ANY CHANGE
+
+
 #chatterbotcorpus training
 
 chatbot.storage.drop()
