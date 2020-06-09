@@ -9,13 +9,13 @@ from chat2 import chatbot
 
 
 
-#TRAINING IS DONE ONCE AFTER MAKING ANY CHANGE
+#TRAINING IS DONE ONLY ONCE AFTER MAKING ANY CHANGE
 #chatterbotcorpus training
-'''
+
 chatbot.storage.drop()
 trainer=ChatterBotCorpusTrainer(chatbot)
 trainer.train("chatterbot.corpus.english")
-'''
+
 
 #list training
 '''
