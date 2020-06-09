@@ -1,3 +1,5 @@
+#example of chatterbot using List Trainer
+
 from chatbot import chatbot
 from chatterbot.trainers import ListTrainer
 import os

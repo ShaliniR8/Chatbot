@@ -1,8 +1,9 @@
+#applying tested parameters in chatterbot
+
 from chatterbot import response_selection
 from chatterbot import ChatBot
 from chatterbot.trainers import ChatterBotCorpusTrainer, ListTrainer
 from chatterbot.comparisons import sentiment_comparison
-import logging
 
 
 chatbot = ChatBot(

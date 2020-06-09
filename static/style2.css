@@ -3,7 +3,8 @@
 }
 
 body {
-	background: #f6f5f7;
+	background-image: url("chat.jpg") ; 
+  	background-size: cover;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -151,7 +152,7 @@ input {
 }
 
 .overlay {
-	background-image: url("chat.jpg");
+	background-image: url("friend.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	opacity: 0.7;
